@@ -1,0 +1,4200 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "DAC8568ICPWR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC8568ICPWR"
+			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac8568.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments DAC8568C, 8-channel 16-bit voltage-output DAC, SPI, internal 2.5 V reference, 2.7-5.5 V supply, TSSOP-16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-DAC8568ICPWR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DAC8568ICPWR_0_1"
+			(rectangle
+				(start -12.7 11.43)
+				(end 12.7 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DAC8568ICPWR_1_1"
+			(pin input line
+				(at -17.78 1.27 0)
+				(length 5.08)
+				(name "~{LDAC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 3.81 0)
+				(length 5.08)
+				(name "~{SYNC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 16.51 270)
+				(length 5.08)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 8.89 180)
+				(length 5.08)
+				(name "VOUTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 3.81 180)
+				(length 5.08)
+				(name "VOUTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -1.27 180)
+				(length 5.08)
+				(name "VOUTE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -6.35 180)
+				(length 5.08)
+				(name "VOUTG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -3.81 0)
+				(length 5.08)
+				(name "VREFIN/VREFOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -1.27 0)
+				(length 5.08)
+				(name "~{CLR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -8.89 180)
+				(length 5.08)
+				(name "VOUTH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -3.81 180)
+				(length 5.08)
+				(name "VOUTF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 1.27 180)
+				(length 5.08)
+				(name "VOUTD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 6.35 180)
+				(length 5.08)
+				(name "VOUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -16.51 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 6.35 0)
+				(length 5.08)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 8.89 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DG403DY-E3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG403DY-E3"
+			(at 0 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/61562/dg401.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SPDT analog switch (four SPST switches in complementary pairs); D1+D3 and D2+D4 must be wired externally for two SPDT. V+=12V V-=-12V VL=5V as application example."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Vishay DG403 analog switch dual SPDT bipolar 16 SOIC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DG403DY-E3_1_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 5.08) (xy -4.445 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -5.08) (xy -4.445 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 5.08) (xy 1.9 7.112)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -5.08) (xy 4.445 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 5.08) (xy 10.16 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.445 5.08)
+				(radius 0.508)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -5.08) (xy 10.16 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.445 -5.08)
+				(radius 0.508)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -15.24 6.35 0)
+				(length 5.08)
+				(name "D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -6.35 0)
+				(length 5.08)
+				(name "D3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -6.35 180)
+				(length 5.08)
+				(name "S3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 90)
+				(length 5.08)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 6.35 180)
+				(length 5.08)
+				(name "S1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG403DY-E3_2_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 5.08) (xy -4.445 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -5.08) (xy -4.445 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 5.08) (xy 1.9 7.112)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -5.08) (xy 4.445 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 5.08) (xy 10.16 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.445 5.08)
+				(radius 0.508)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -5.08) (xy 10.16 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.445 -5.08)
+				(radius 0.508)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "S4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "D4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "S2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 90)
+				(length 5.08)
+				(name "IN2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG403DY-E3_3_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 15.24 270)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 15.24 270)
+				(length 5.08)
+				(name "VL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -15.24 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -15.24 90)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DG413DYZ_MultiUnit"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG413DYZ_MultiUnit"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/dg411-dg412-dg413-datasheet"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Renesas DG413DYZ, 4 SPST bilateral analog switches, mixed control: IN1/IN4 HIGH=ON, IN2/IN3 LOW=ON, SOIC-16 narrow, dual +/-5 to +/-20 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "968-DG413DYZ"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DG413DYZ_MultiUnit_1_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "HIGH = ON"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 0 0)
+				(length 5.08)
+				(name "S1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG413DYZ_MultiUnit_2_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "LOW = ON"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 0 0)
+				(length 5.08)
+				(name "S2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "IN2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG413DYZ_MultiUnit_3_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "LOW = ON"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+			(pin input inverted
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "IN3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "D3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 0 0)
+				(length 5.08)
+				(name "S3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG413DYZ_MultiUnit_4_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "HIGH = ON"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 0 0)
+				(length 5.08)
+				(name "S4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "D4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "IN4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG413DYZ_MultiUnit_5_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "POWER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -10.16 90)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -10.16 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 10.16 270)
+				(length 5.08)
+				(name "VL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 10.16 270)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MCP1781-3302H_DC"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1781-3302H/DC"
+			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Microchip_Power:MCP1781_SOT-223-5_N7X"
+			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/4758101.pdf"
+			(at 0 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Microchip MCP1781 3.3 V 200 mA high-voltage LDO, fixed output, SOT-223-5 N7X with tab=GND; VIN 4.3-55 V, SHDN, PWG"
+			(at 0 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "579-MCP17813302HDC"
+			(at 0 -21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MCP1781-3302H_DC_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "3.3V / 200mA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+		)
+		(symbol "MCP1781-3302H_DC_1_1"
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "PWG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -10.16 90)
+				(length 2.54)
+				(name "GND_TAB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MCP41HV51-104E_ST"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP41HV51-104E/ST"
+			(at 0 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP41HVX1-Data-Sheet-20005207.pdf"
+			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Microchip 100 kOhm high-voltage digital potentiometer, 256 steps, SPI, analog +/-18 V, TSSOP-14."
+			(at 0 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MCP41HV51-104E_ST_0_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MCP41HV51-104E_ST_1_1"
+			(pin power_in line
+				(at -1.27 12.7 270)
+				(length 2.54)
+				(name "VL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{WLAT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -12.7 90)
+				(length 2.54)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -12.7 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "P0B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "P0W"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "P0A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 12.7 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MCP41HV51-502E_ST"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP41HV51-502E/ST"
+			(at 0 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP41HVX1-Data-Sheet-20005207.pdf"
+			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Microchip 5 kOhm high-voltage digital potentiometer, 256 steps, SPI, analog +/-18 V, TSSOP-14."
+			(at 0 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MCP41HV51-502E_ST_0_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MCP41HV51-502E_ST_1_1"
+			(pin power_in line
+				(at -1.27 12.7 270)
+				(length 2.54)
+				(name "VL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{WLAT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -12.7 90)
+				(length 2.54)
+				(name "DGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -12.7 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "P0B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "P0W"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "P0A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 12.7 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SC1631_Pico2_SMD"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC1631_Pico2_SMD"
+			(at 0 -38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DigitalAnalogDrums_SC1631:Pico2_SC1631_SMD_Reflow"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008299-DS-2-pico-2-datasheet.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Raspberry Pi Pico 2 SC1631 (RP2350, 4 MB flash), Full SMT interface with SWD, TP1-TP6 and castellated pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "358-SC1631"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SC1631_Pico2_SMD_0_1"
+			(rectangle
+				(start -20.32 26.67)
+				(end 20.32 -26.67)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "RP2350 / Pico 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+		)
+		(symbol "SC1631_Pico2_SMD_1_1"
+			(pin bidirectional line
+				(at -25.4 24.13 0)
+				(length 5.08)
+				(name "GP0"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 21.59 0)
+				(length 5.08)
+				(name "GP1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 19.05 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 16.51 0)
+				(length 5.08)
+				(name "GP2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 13.97 0)
+				(length 5.08)
+				(name "GP3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 11.43 0)
+				(length 5.08)
+				(name "GP4"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 8.89 0)
+				(length 5.08)
+				(name "GP5"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 6.35 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 3.81 0)
+				(length 5.08)
+				(name "GP6"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 1.27 0)
+				(length 5.08)
+				(name "GP7"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -1.27 0)
+				(length 5.08)
+				(name "GP8"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -3.81 0)
+				(length 5.08)
+				(name "GP9"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -6.35 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -8.89 0)
+				(length 5.08)
+				(name "GP10"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -11.43 0)
+				(length 5.08)
+				(name "GP11"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -13.97 0)
+				(length 5.08)
+				(name "GP12"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -16.51 0)
+				(length 5.08)
+				(name "GP13"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -19.05 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -21.59 0)
+				(length 5.08)
+				(name "GP14"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -24.13 0)
+				(length 5.08)
+				(name "GP15"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -24.13 180)
+				(length 5.08)
+				(name "GP16"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -21.59 180)
+				(length 5.08)
+				(name "GP17"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -19.05 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -16.51 180)
+				(length 5.08)
+				(name "GP18"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -13.97 180)
+				(length 5.08)
+				(name "GP19"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(name "GP20"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -8.89 180)
+				(length 5.08)
+				(name "GP21"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -6.35 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -3.81 180)
+				(length 5.08)
+				(name "GP22"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -1.27 180)
+				(length 5.08)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 1.27 180)
+				(length 5.08)
+				(name "GP26/ADC0"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 3.81 180)
+				(length 5.08)
+				(name "GP27/ADC1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 6.35 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 8.89 180)
+				(length 5.08)
+				(name "GP28/ADC2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 5.08)
+				(name "ADC_VREF"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 25.4 13.97 180)
+				(length 5.08)
+				(name "3V3(OUT)"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 16.51 180)
+				(length 5.08)
+				(name "3V3_EN"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 19.05 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 21.59 180)
+				(length 5.08)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 24.13 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -31.75 90)
+				(length 5.08)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -31.75 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -31.75 90)
+				(length 5.08)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 31.75 270)
+				(length 5.08)
+				(name "GND_USB"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 31.75 270)
+				(length 5.08)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 31.75 270)
+				(length 5.08)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 31.75 270)
+				(length 5.08)
+				(name "GP23/SMPS_PS_NC"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP4"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 31.75 270)
+				(length 5.08)
+				(name "GP25/LED"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP5"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 31.75 270)
+				(length 5.08)
+				(name "BOOTSEL"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "TP6"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SC1631_Pico2_THT"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC1631_Pico2_THT"
+			(at 0 -38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DigitalAnalogDrums_SC1631:Pico2_SC1631_THT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1005-raspberry-pi-pico-2/documents/RP-008299-DS-2-pico-2-datasheet.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Raspberry Pi Pico 2 SC1631 (RP2350, 4 MB flash), 40-pin header interface; SWD/debug pads not connected"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "358-SC1631"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SC1631_Pico2_THT_0_1"
+			(rectangle
+				(start -20.32 26.67)
+				(end 20.32 -26.67)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "RP2350 / Pico 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+		)
+		(symbol "SC1631_Pico2_THT_1_1"
+			(pin bidirectional line
+				(at -25.4 24.13 0)
+				(length 5.08)
+				(name "GP0"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 21.59 0)
+				(length 5.08)
+				(name "GP1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 19.05 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 16.51 0)
+				(length 5.08)
+				(name "GP2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 13.97 0)
+				(length 5.08)
+				(name "GP3"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 11.43 0)
+				(length 5.08)
+				(name "GP4"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 8.89 0)
+				(length 5.08)
+				(name "GP5"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 6.35 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 3.81 0)
+				(length 5.08)
+				(name "GP6"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 1.27 0)
+				(length 5.08)
+				(name "GP7"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -1.27 0)
+				(length 5.08)
+				(name "GP8"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -3.81 0)
+				(length 5.08)
+				(name "GP9"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -6.35 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -8.89 0)
+				(length 5.08)
+				(name "GP10"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -11.43 0)
+				(length 5.08)
+				(name "GP11"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -13.97 0)
+				(length 5.08)
+				(name "GP12"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -16.51 0)
+				(length 5.08)
+				(name "GP13"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -19.05 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -21.59 0)
+				(length 5.08)
+				(name "GP14"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -25.4 -24.13 0)
+				(length 5.08)
+				(name "GP15"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -24.13 180)
+				(length 5.08)
+				(name "GP16"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -21.59 180)
+				(length 5.08)
+				(name "GP17"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -19.05 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -16.51 180)
+				(length 5.08)
+				(name "GP18"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -13.97 180)
+				(length 5.08)
+				(name "GP19"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(name "GP20"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -8.89 180)
+				(length 5.08)
+				(name "GP21"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -6.35 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -3.81 180)
+				(length 5.08)
+				(name "GP22"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -1.27 180)
+				(length 5.08)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 1.27 180)
+				(length 5.08)
+				(name "GP26/ADC0"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 3.81 180)
+				(length 5.08)
+				(name "GP27/ADC1"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 6.35 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 8.89 180)
+				(length 5.08)
+				(name "GP28/ADC2"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 11.43 180)
+				(length 5.08)
+				(name "ADC_VREF"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 25.4 13.97 180)
+				(length 5.08)
+				(name "3V3(OUT)"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 16.51 180)
+				(length 5.08)
+				(name "3V3_EN"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 19.05 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 21.59 180)
+				(length 5.08)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 24.13 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.02 1.02)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
