@@ -4670,12 +4670,6 @@
 		(uuid "07a7e14e-3337-4500-a55c-16a90b184d01")
 	)
 	(junction
-		(at 292.1 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b344aeb-c9cc-45a2-be60-1e7f80571820")
-	)
-	(junction
 		(at 45.72 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4748,12 +4742,6 @@
 		(uuid "3131397a-8300-4867-a6c3-74f36969267b")
 	)
 	(junction
-		(at 280.67 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3355b895-98cc-49f0-9d5f-0563be6eaacf")
-	)
-	(junction
 		(at 347.98 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4808,12 +4796,6 @@
 		(uuid "49634edd-e26b-4160-8554-f6417f86510d")
 	)
 	(junction
-		(at 292.1 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bf2b42d-2fbd-4215-a196-4067a3ad218f")
-	)
-	(junction
 		(at 342.9 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,12 +4848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "675cbea3-f31a-450c-afb7-32f652a4472d")
-	)
-	(junction
-		(at 292.1 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7368fcbd-9452-4a03-ac3d-76a5f89c33cc")
 	)
 	(junction
 		(at 356.87 231.14)
@@ -5089,6 +5065,12 @@
 		(color 0 0 0 0)
 		(uuid "fbdaaf10-3322-4917-8733-f47a0068bff6")
 	)
+	(junction
+		(at 292.1 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff832c6e-f06d-49db-aa11-30351337faa3")
+	)
 	(no_connect
 		(at 276.86 262.89)
 		(uuid "192c021a-4b41-4f2b-92af-bfe003baacd4")
@@ -5292,16 +5274,6 @@
 			(type default)
 		)
 		(uuid "159e41f5-82db-45ae-b2f6-e8b1df99fe46")
-	)
-	(wire
-		(pts
-			(xy 292.1 172.72) (xy 280.67 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1710d49b-3da3-4654-a5c8-61b01ebfe358")
 	)
 	(wire
 		(pts
@@ -5925,16 +5897,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 165.1) (xy 292.1 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4085de-dc9c-4e90-b64b-8a019949a5fe")
-	)
-	(wire
-		(pts
 			(xy 36.83 173.99) (xy 36.83 185.42)
 		)
 		(stroke
@@ -6472,16 +6434,6 @@
 			(type default)
 		)
 		(uuid "b69716fd-ac86-4766-816b-7c47ecfc37f2")
-	)
-	(wire
-		(pts
-			(xy 280.67 180.34) (xy 292.1 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c15b2290-72f4-4da0-91c9-a00d0d6d36c7")
 	)
 	(wire
 		(pts
@@ -7546,170 +7498,6 @@
 			(project "Drums"
 				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/e1d34199-9ddf-4198-90dc-68401b264d73"
 					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 280.67 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07bf23b7-e64f-4ca2-9d9c-111a3dda44b4")
-		(property "Reference" "C68"
-			(at 284.48 167.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 284.48 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 281.6352 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 280.67 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6bdeb1b8-b309-4935-986e-6ddfe9e56f6e")
-		)
-		(pin "1"
-			(uuid "8b46fc43-334a-4961-8d71-989ace6ef8ba")
-		)
-		(instances
-			(project "Drums"
-				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/e1d34199-9ddf-4198-90dc-68401b264d73"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 280.67 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "081c08cc-a96c-488e-a4f2-d95699ff973d")
-		(property "Reference" "C73"
-			(at 284.48 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 284.48 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 281.6352 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 280.67 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "29bbdc37-837d-46a8-81b6-63c9ab6b11ba")
-		)
-		(pin "1"
-			(uuid "519dab90-fe6a-4fb5-b604-d399462ba633")
-		)
-		(instances
-			(project "Drums"
-				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/e1d34199-9ddf-4198-90dc-68401b264d73"
-					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -18452,6 +18240,85 @@
 			(project "Drums"
 				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/e1d34199-9ddf-4198-90dc-68401b264d73"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eead3234-3058-4cce-90f0-3fead3dba339")
+		(property "Reference" "#PWR0196"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bf53da6-86e3-41ae-b262-3de847d178b1")
+		)
+		(instances
+			(project "Drums"
+				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/e1d34199-9ddf-4198-90dc-68401b264d73"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)

@@ -5236,15 +5236,6 @@
 		(at 118.11 127)
 		(uuid "f5803201-d67f-4abc-afd3-f06a5794bf36")
 	)
-	(bus_entry
-		(at 436.88 486.41)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158ddd2e-560e-4c36-b54d-bf95f4a01b2e")
-	)
 	(wire
 		(pts
 			(xy 162.56 149.86) (xy 162.56 185.42)
@@ -8631,7 +8622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "183cf914-dc40-44b7-abea-64dd14627d30")
-		(property "Reference" "U16"
+		(property "Reference" "U24"
 			(at 110.49 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8734,7 +8725,7 @@
 		(instances
 			(project "Drums"
 				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/62821759-a434-4d72-9992-4595001eb1cc"
-					(reference "U16")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -10982,7 +10973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a05c7d-7c00-42a1-bafe-96aae34bcbec")
-		(property "Reference" "U24"
+		(property "Reference" "U16"
 			(at 220.98 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11076,7 @@
 		(instances
 			(project "Drums"
 				(path "/8f1c9fae-ffff-4d18-abdc-f189175dddcd/62821759-a434-4d72-9992-4595001eb1cc"
-					(reference "U24")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -21176,7 +21167,7 @@
 			(uuid "85d7a85c-7da6-41dd-ae69-30326980d892")
 		)
 		(pin "9"
-			(uuid "abc772c9-31d1-4915-a29a-e9667d8c56f3")
+			(uuid "abc772c9-31d1-4915-a29a-e9667d8c56f4")
 		)
 		(pin "6"
 			(uuid "9691d96f-4727-40f4-9084-414cd29d9b2d")
@@ -21188,10 +21179,10 @@
 			(uuid "815ba14a-bdab-4bbe-b645-9a2220d22f55")
 		)
 		(pin "8"
-			(uuid "e5c93c8d-ee6a-4b7b-bf0f-c184a3c56a0c")
+			(uuid "e5c93c8d-ee6a-4b7b-bf0f-c184a3c56a0d")
 		)
 		(pin "10"
-			(uuid "6a12b02b-1d96-4049-86c1-ede45d126ea9")
+			(uuid "6a12b02b-1d96-4049-86c1-ede45d126eaa")
 		)
 		(pin "14"
 			(uuid "19a2f774-fa3a-4074-be4c-6bee11238208")
